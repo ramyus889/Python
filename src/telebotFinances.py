@@ -1,9 +1,11 @@
 import telebot
 import json
+import os
 from datetime import datetime
 
 # Токен вашего Telegram-бота
-bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
+bot = telebot.TeleBot(
+    os.getenv('7582097199:AAFMqvlGT3siIedFpstSkHCFcfpO2v4P6g4'))
 
 # Словарь для хранения данных о финансах
 finances = {
